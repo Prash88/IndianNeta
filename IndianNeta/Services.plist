@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>development</key>
+	<dict>
+		<key>NetaService</key>
+		<dict>
+			<key>contextPath</key>
+			<string></string>
+			<key>url</key>
+			<string>http://api.myminister.info</string>
+		</dict>
+	</dict>
+	<key>production</key>
+	<dict>
+		<key>NetaService</key>
+		<dict>
+			<key>contextPath</key>
+			<string>  </string>
+			<key>url</key>
+			<string>http://api.myminister.info</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
