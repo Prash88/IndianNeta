@@ -10,7 +10,7 @@
 
 @implementation MpProfileTransformer
 
-@synthesize profile = _profile, text = _text, constituencyName, partyName, email, name;
+@synthesize profile = _profile, text = _text, constituencyName, partyName, address, name;
 
 -(id)init
 {
@@ -19,7 +19,7 @@
         self.profile = nil;
         self.constituencyName = false;
         self.partyName = false;
-        self.email = false;
+        self.address = false;
 	}
 	return self;
 }
@@ -51,7 +51,7 @@
     if([elementName isEqualToString:@"constituency"])
         constituencyName = TRUE;
     if([elementName isEqualToString:@"mp_profile"])
-        email = TRUE;
+        address = TRUE;
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
@@ -79,13 +79,17 @@
         constituencyName = false;
 	}
     
-    if([elementName isEqualToString:@"email"] && email){
+    if([elementName isEqualToString:@"permanent_address"] && address){
+        [self.profile setAddress:self.text];
+	}
+    
+    if([elementName isEqualToString:@"email"] && address){
         [self.profile setEmail:self.text];
 	}
     
     if([elementName isEqualToString:@"photo"]){
         [self.profile setProfilePic:[NSURL URLWithString:self.text]];
-        email = false;
+        address = false;
 	}
     
 	self.text = (NSMutableString *)@"";

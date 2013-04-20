@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GADMasterViewController.h"
 
-@interface PartyMpViewController: UITableViewController{
+@interface PartyMpViewController: UIViewController <UITableViewDelegate, UITableViewDataSource>{
    
     NSMutableArray *_stateMpArray;
+    UITableView *_tableView;
 
 }
 @property (nonatomic,retain) NSMutableArray *stateMpArray;
+@property (nonatomic,retain) IBOutlet UITableView *tableView;
 
 @end

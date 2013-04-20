@@ -49,7 +49,6 @@
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
     
-    NSLog(@"PRRRRRRRR : %@",string);
 	self.text = (NSMutableString *)[[self.text stringByAppendingString:string] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
 }

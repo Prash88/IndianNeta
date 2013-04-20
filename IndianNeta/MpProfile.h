@@ -13,6 +13,7 @@
     NSString *_name;
     NSString *_party;
     NSString *_constituency;
+    NSString *_address;
     NSString *_email;
     NSURL *_profilePic;
     
@@ -21,6 +22,7 @@
 @property(nonatomic, retain) NSString *name;
 @property(nonatomic, retain) NSString *party;
 @property(nonatomic, retain) NSString *constituency;
+@property(nonatomic, retain) NSString *address;
 @property(nonatomic, retain) NSString *email;
 @property(nonatomic, retain) NSURL *profilePic;
 @end

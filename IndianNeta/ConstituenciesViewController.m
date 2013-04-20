@@ -16,27 +16,19 @@
 #import "Reachability.h"
 @implementation ConstituenciesViewController
 
-@synthesize constituenciesArray = _constituenciesArray;
-
-- (id)initWithStyle:(UITableViewStyle)styles
-{
-    self = [super initWithStyle:styles];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
+@synthesize constituenciesArray = _constituenciesArray,  tableView = _tableView;
 
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:NO];
-    
+    [[GADMasterViewController singleton] resetAdView:self];
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.view setHidden:FALSE];
     [ConstituencyDataSource triggerRequestWithDelegate:self];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -193,9 +185,11 @@ sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 - (void)requestFailed:(ASIHTTPRequest *)request{
 	Reachability* reachability = [Reachability reachabilityForInternetConnection];
 	if (![reachability currentReachabilityStatus] && ([request.error code] == 1)) {
+        [self.view setHidden:TRUE];
 		JAAlert(@"Error", @"This app requires an internet connection.Please check your internet connection.");
 	}
     else if ([request.error code] == 2) {
+        [self.view setHidden:TRUE];
         JAAlert(@"Error", @"Oops! Looks like the system timed out. Please try again now or come back in a few minutes.");
 	}
 }
@@ -205,6 +199,7 @@ sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 -(void)dealloc{
 	NSLog(@"Class : %@ Killed!!", [self class]);
     [_constituenciesArray release], _constituenciesArray = nil;
+    [_tableView release], _tableView = nil;
 	[super dealloc];
 }
 

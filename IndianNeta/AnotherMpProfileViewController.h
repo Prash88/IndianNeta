@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "MpProfile.h"
 #import "JAImageButton.h"
+#import "GADMasterViewController.h"
 
-@interface AnotherMpProfileViewController : UIViewController{
+@interface AnotherMpProfileViewController :UIViewController{
     
     MpProfile *_mpProfile;
     
@@ -20,6 +21,7 @@
 @property (nonatomic,assign) IBOutlet UILabel *name;
 @property (nonatomic,assign) IBOutlet UILabel *constituency;
 @property (nonatomic,assign) IBOutlet UILabel *party;
+@property (nonatomic,assign) IBOutlet UILabel *address;
 @property (nonatomic,assign) IBOutlet UILabel *email;
 
 @property (nonatomic,assign) IBOutlet JAImageButton *image;

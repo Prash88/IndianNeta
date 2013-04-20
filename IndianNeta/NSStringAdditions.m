@@ -149,7 +149,7 @@
 
 - (NSString *)ampersandDecode{
 	if(!IsEmptyString(self)){
-		NSString *removeAmpersand = [self stringByReplacingOccurrencesOfString:@"amp;" 
+		NSString *removeAmpersand = [self stringByReplacingOccurrencesOfString:@"&amp;" 
 																	withString:@"&"];
 		NSString *removeQuot = [removeAmpersand stringByReplacingOccurrencesOfString:@"quot;" 
 																	withString:@"\""];

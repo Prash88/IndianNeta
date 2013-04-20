@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GADMasterViewController.h"
 
-@interface PartiesViewController : UITableViewController{
+@interface PartiesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     
     NSMutableArray *_partiesArray;
+    UITableView *_tableView;
 
 }
 
 @property (nonatomic,retain) NSMutableArray *partiesArray;
+@property (nonatomic,retain) IBOutlet UITableView *tableView;
 
 @end

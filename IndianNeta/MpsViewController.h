@@ -7,13 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GADMasterViewController.h"
 
-@interface MpsViewController : UITableViewController{
+@interface MpsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     
     NSMutableArray *_mpsArray;
+    UITableView *_tableView;
+
 
 }
 
 @property (nonatomic,retain) NSMutableArray *mpsArray;
+@property (nonatomic,retain) IBOutlet UITableView *tableView;
 
 @end

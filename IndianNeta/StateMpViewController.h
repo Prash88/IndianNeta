@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "GADMasterViewController.h"
 
-@interface StateMpViewController : UITableViewController{
+@interface StateMpViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     NSMutableArray *_stateMpArray;
+    UITableView *_tableView;
 }
 @property (nonatomic,retain) NSMutableArray *stateMpArray;
-
+@property (nonatomic,retain) IBOutlet UITableView *tableView;
 @end

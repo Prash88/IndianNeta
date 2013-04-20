@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+    
     return YES;
 }
 							

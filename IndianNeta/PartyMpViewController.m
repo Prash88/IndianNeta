@@ -16,27 +16,19 @@
 #import "BusinessLogic.h"
 
 @implementation PartyMpViewController
-@synthesize stateMpArray = _stateMpArray;
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
+@synthesize stateMpArray = _stateMpArray, tableView = _tableView;
 
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:NO];
+    [[GADMasterViewController singleton] resetAdView:self];
     
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.view setHidden:FALSE];
     [PartyMpDataSource triggerRequestWithDelegate:self];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -86,7 +78,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return 150.0;
+    return 115.0;
     
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
@@ -152,9 +144,11 @@ sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 - (void)requestFailed:(ASIHTTPRequest *)request{
 	Reachability* reachability = [Reachability reachabilityForInternetConnection];
 	if (![reachability currentReachabilityStatus] && ([request.error code] == 1)) {
+        [self.view setHidden:TRUE];
 		JAAlert(@"Error", @"This app requires an internet connection.Please check your internet connection.");
 	}
     else if ([request.error code] == 2) {
+        [self.view setHidden:TRUE];
         JAAlert(@"Error", @"Oops! Looks like the system timed out. Please try again now or come back in a few minutes.");
 	}
     
@@ -164,6 +158,7 @@ sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 -(void)dealloc{
 	NSLog(@"Class : %@ Killed!!", [self class]);
     [_stateMpArray release], _stateMpArray = nil;
+    [_tableView release], _tableView = nil;
 	[super dealloc];
 }
 

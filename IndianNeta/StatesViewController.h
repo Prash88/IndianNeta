@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GADMasterViewController.h"
 
-@interface StatesViewController : UITableViewController{
+@interface StatesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     NSMutableArray *_statesArray;
+    UITableView *_tableView;
+
 }
 @property (nonatomic,retain) NSMutableArray *statesArray;
+@property (nonatomic,retain) IBOutlet UITableView *tableView;
 
 @end

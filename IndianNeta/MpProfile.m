@@ -12,16 +12,18 @@
 @implementation MpProfile
 
 @synthesize name = _name, party = _party, constituency = _constituency;
-@synthesize email = _email;
+@synthesize address = _address;
 @synthesize profilePic = _profilePic;
+@synthesize email = _email;
 
 -(void) dealloc{
     
     [_name release], _name = nil;
     [_party release], _party = nil;
     [_constituency release], _constituency = nil;
-    [_email release], _email = nil;
+    [_address release], _address = nil;
     [_profilePic release], _profilePic = nil;
+    [_email release], _email = nil;
 	[super dealloc];
 }
 

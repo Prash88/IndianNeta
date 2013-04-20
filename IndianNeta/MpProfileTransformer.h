@@ -16,7 +16,7 @@
     MpProfile *_profile;
     BOOL constituencyName;
     BOOL partyName;
-    BOOL email;
+    BOOL address;
     BOOL name;
 
 }
@@ -25,6 +25,6 @@
 @property(nonatomic, retain) MpProfile *profile;
 @property(assign) BOOL constituencyName;
 @property(assign) BOOL partyName;
-@property(assign) BOOL email;
+@property(assign) BOOL address;
 @property(assign) BOOL name;
 @end
