@@ -51,7 +51,7 @@
         
         GADRequest *request = [GADRequest request];
         //Test ads...
-        request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil];
+        //request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil];
         
         [adBanner_ loadRequest:request];
         [rootViewController.view addSubview:adBanner_];
