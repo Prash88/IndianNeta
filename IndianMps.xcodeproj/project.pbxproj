@@ -104,7 +104,6 @@
 		C7B138D316A3F32E00A0F3AD /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B138CF16A3F32D00A0F3AD /* libz.1.2.5.dylib */; };
 		C7B138D416A3F32E00A0F3AD /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B138D016A3F32D00A0F3AD /* libz.1.dylib */; };
 		C7B138D516A3F32E00A0F3AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B138D116A3F32E00A0F3AD /* libz.dylib */; };
-		C7B138F216A4612800A0F3AD /* libYAJLIPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B138E216A4612800A0F3AD /* libYAJLIPhone.a */; };
 		C7B138F516A4612900A0F3AD /* GlobalUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B138F016A4612800A0F3AD /* GlobalUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C7B138F916A4B17000A0F3AD /* Datasource.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B138F816A4B17000A0F3AD /* Datasource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C7B138FC16A4B48B00A0F3AD /* JADownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B138FB16A4B48B00A0F3AD /* JADownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -566,7 +565,6 @@
 				C7B138C216A3F12900A0F3AD /* libxml2.2.dylib in Frameworks */,
 				C7B138C316A3F12900A0F3AD /* libxml2.dylib in Frameworks */,
 				C7B137E616A2B2E600A0F3AD /* Foundation.framework in Frameworks */,
-				C7B138F216A4612800A0F3AD /* libYAJLIPhone.a in Frameworks */,
 				C7F287B417222C4900021509 /* libGoogleAnalytics.a in Frameworks */,
 				C7F287B717222C4900021509 /* libGoogleAdMobAds.a in Frameworks */,
 			);
@@ -1682,9 +1680,7 @@
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1\"",
 				);
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ObjC",
-				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = IndianMps;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1704,9 +1700,7 @@
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1\"",
 				);
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ObjC",
-				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = IndianMps;
 				WRAPPER_EXTENSION = app;
 			};

@@ -23,28 +23,15 @@
     return shared;
 }
 
--(id)init {
-    if (self = [super init]) {
-        adBanner_ = [[GADBannerView alloc]
-                     initWithFrame:CGRectMake(0.0,
-                                              317.0,
-                                              GAD_SIZE_320x50.width,
-                                              GAD_SIZE_320x50.height)];
-        // Has an ad request already been made
-        isLoaded_ = NO;
-    }
-    return self;
-}
-
 -(void)resetAdView:(UIViewController *)rootViewController {
     // Always keep track of currentDelegate for notification forwarding
     currentDelegate_ = rootViewController;
     
-    // Ad already requested, simply add it into the view
-    if (isLoaded_) {
-        [rootViewController.view addSubview:adBanner_];
-    } else {
-        
+    adBanner_ = [[GADBannerView alloc]
+                 initWithFrame:CGRectMake(0.0,
+                                          317.0,
+                                          GAD_SIZE_320x50.width,
+                                          GAD_SIZE_320x50.height)];
         adBanner_.delegate = self;
         adBanner_.rootViewController = rootViewController;
         adBanner_.adUnitID = ADMOB_KEY;
@@ -54,20 +41,19 @@
         //request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil];
         
         [adBanner_ loadRequest:request];
-        [rootViewController.view addSubview:adBanner_];
-        isLoaded_ = YES;
-    }
-}
 
+}
 
 #pragma mark -
 #pragma mark MyBanner Callbacks
 
 - (void)adViewDidReceiveAd:(GADBannerView *)view {
 
-    
-}
+    if([currentDelegate_ respondsToSelector:@selector(view)])
+        [[(UIViewController *)currentDelegate_ view] addSubview:adBanner_];
 
+}
+ 
 - (void)adViewWillPresentScreen:(GADBannerView *)adView {
 
 

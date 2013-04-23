@@ -17,6 +17,54 @@
 
 @synthesize mpProfile = _mpProfile;
 
+- (void)enteredForeground{
+    
+    
+    if (self.mpProfile != NULL) {
+        
+        [self.image setImageURL:[self.mpProfile profilePic]];
+        
+        [self.name setText:[self.mpProfile name]];
+        [self.constituency setText:[self.mpProfile constituency]];
+        [self.party setText:[self.mpProfile party]];
+        [self.address setText:[[self.mpProfile address] ampersandDecode]];
+        [self.email setText:[self.mpProfile email]];
+        
+        
+    }
+    
+    if (self.view.hidden == TRUE) {
+        
+        [self.view setHidden:FALSE];
+        [AnotherMpProfileDataSource triggerRequestWithDelegate:self];
+        
+    }
+
+
+}
+
+- (void)enteredBackground{
+    
+    for(UIView *subview in [self.view subviews]) {
+        if([subview isKindOfClass:[GADBannerView class]]) {
+            [subview removeFromSuperview];
+        }
+    }
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    
+    [super viewWillDisappear:NO];
+    
+    for(UIView *subview in [self.view subviews]) {
+        if([subview isKindOfClass:[GADBannerView class]]) {
+            [subview removeFromSuperview];
+        }
+    }
+    
+}
+
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:NO];
@@ -35,6 +83,12 @@
         
     }
     
+    if (self.view.hidden == TRUE) {
+        
+        [self.view setHidden:FALSE];
+        [AnotherMpProfileDataSource triggerRequestWithDelegate:self];
+        
+    }
 }
 
 - (void)viewDidLoad
@@ -42,6 +96,16 @@
     [super viewDidLoad];
     [self.view setHidden:FALSE];
     [AnotherMpProfileDataSource triggerRequestWithDelegate:self];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(enteredForeground)
+                                                 name: @"didEnterForeground"
+                                               object: nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(enteredBackground)
+                                                 name: @"didEnterBackground"
+                                               object: nil];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

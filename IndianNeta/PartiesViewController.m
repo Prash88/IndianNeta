@@ -20,10 +20,50 @@
 
 @synthesize partiesArray = _partiesArray, tableView = _tableView;
 
+- (void)enteredForeground{
+    
+    if (self.view.hidden == TRUE) {
+        
+        [self.view setHidden:FALSE];
+        [PartyDataSource triggerRequestWithDelegate:self];
+        
+    }
+}
+
+- (void)enteredBackground{
+    
+    for(UIView *subview in [self.view subviews]) {
+        if([subview isKindOfClass:[GADBannerView class]]) {
+            [subview removeFromSuperview];
+        }
+    }
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    
+    [super viewWillDisappear:NO];
+    
+    for(UIView *subview in [self.view subviews]) {
+        if([subview isKindOfClass:[GADBannerView class]]) {
+            [subview removeFromSuperview];
+        }
+    }
+    
+}
+
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:NO];
     [[GADMasterViewController singleton] resetAdView:self];
+    
+    
+    if (self.view.hidden == TRUE) {
+        
+        [self.view setHidden:FALSE];
+        [PartyDataSource triggerRequestWithDelegate:self];
+        
+    }
     
 }
 
@@ -32,6 +72,17 @@
     [super viewDidLoad];
     [self.view setHidden:FALSE];
     [PartyDataSource triggerRequestWithDelegate:self];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(enteredForeground)
+                                                 name: @"didEnterForeground"
+                                               object: nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(enteredBackground)
+                                                 name: @"didEnterBackground"
+                                               object: nil];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

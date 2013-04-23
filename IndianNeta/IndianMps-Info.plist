@@ -30,7 +30,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>StringConnect.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.StringConnect.IndianMps</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
