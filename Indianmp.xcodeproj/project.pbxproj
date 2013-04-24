@@ -17,6 +17,8 @@
 		C710A1AB1721D1A100729C92 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C710A1AA1721D1A100729C92 /* iAd.framework */; };
 		C717A86B171F375900330472 /* AnotherMpProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717A86A171F375900330472 /* AnotherMpProfileViewController.m */; };
 		C717A86E1720824A00330472 /* AnotherMpProfileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C717A86D1720824A00330472 /* AnotherMpProfileDataSource.m */; };
+		C75EDD5E17275C5E003DEF4D /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C75EDD5C17275C5E003DEF4D /* appicon.png */; };
+		C75EDD5F17275C5E003DEF4D /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75EDD5D17275C5E003DEF4D /* appicon@2x.png */; };
 		C792EB2516FC335600FBD9B9 /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1392316A57BA200A0F3AD /* NSObjectAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C792EB2616FC335600FBD9B9 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1391716A5745200A0F3AD /* NSStringAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C792EB2C16FC359200FBD9B9 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = C792EB2B16FC359200FBD9B9 /* State.m */; };
@@ -63,8 +65,6 @@
 		C7B1381816A2B2E700A0F3AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B137E516A2B2E600A0F3AD /* Foundation.framework */; };
 		C7B1382016A2B2E700A0F3AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B1381E16A2B2E700A0F3AD /* InfoPlist.strings */; };
 		C7B1382316A2B2E700A0F3AD /* IndianNetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1382216A2B2E700A0F3AD /* IndianNetaTests.m */; };
-		C7B1382F16A2B71800A0F3AD /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B1382D16A2B71800A0F3AD /* appicon@2x.png */; };
-		C7B1383016A2B71800A0F3AD /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B1382E16A2B71800A0F3AD /* appicon.png */; };
 		C7B1383216A2BA5C00A0F3AD /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = C7B1383116A2BA5C00A0F3AD /* AppDelegate.rb */; };
 		C7B1383616A34BC800A0F3AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B1383316A34BC800A0F3AD /* Default@2x.png */; };
 		C7B1383716A34BC800A0F3AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B1383416A34BC800A0F3AD /* Default.png */; };
@@ -124,6 +124,8 @@
 		C7B1393616A73C3B00A0F3AD /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1393316A73C3800A0F3AD /* RegexKitLite.m */; };
 		C7B1393716A73C3B00A0F3AD /* RKLMatchEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1393516A73C3A00A0F3AD /* RKLMatchEnumerator.m */; };
 		C7B1393916A751E000A0F3AD /* GlobalUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1392816A5840900A0F3AD /* GlobalUI.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C7B891D21727534200B5EB0D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B891D01727534200B5EB0D /* Icon.png */; };
+		C7B891D31727534200B5EB0D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B891D11727534200B5EB0D /* Icon@2x.png */; };
 		C7E71466170120A50034B3C6 /* StatesMpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E71465170120A50034B3C6 /* StatesMpDataSource.m */; };
 		C7E714691701215E0034B3C6 /* UserParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E714681701215E0034B3C6 /* UserParameter.m */; };
 		C7E7146C170129400034B3C6 /* StatesMpTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E7146B170129400034B3C6 /* StatesMpTransformer.m */; };
@@ -218,6 +220,8 @@
 		C717A86A171F375900330472 /* AnotherMpProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherMpProfileViewController.m; sourceTree = "<group>"; };
 		C717A86C1720824A00330472 /* AnotherMpProfileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherMpProfileDataSource.h; sourceTree = "<group>"; };
 		C717A86D1720824A00330472 /* AnotherMpProfileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherMpProfileDataSource.m; sourceTree = "<group>"; };
+		C75EDD5C17275C5E003DEF4D /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		C75EDD5D17275C5E003DEF4D /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
 		C792EB2A16FC359200FBD9B9 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
 		C792EB2B16FC359200FBD9B9 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
 		C792EB2D16FC371200FBD9B9 /* StatesTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesTransformer.h; sourceTree = "<group>"; };
@@ -276,25 +280,23 @@
 		C7A74A7C1709D30E00E1467A /* MpProfileTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpProfileTransformer.m; sourceTree = "<group>"; };
 		C7A74A7E1709D32B00E1467A /* MpProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpProfile.h; sourceTree = "<group>"; };
 		C7A74A7F1709D32C00E1467A /* MpProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpProfile.m; sourceTree = "<group>"; };
-		C7B137DF16A2B2E600A0F3AD /* IndianMps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianMps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B137DF16A2B2E600A0F3AD /* Indianmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indianmp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B137E316A2B2E600A0F3AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7B137E516A2B2E600A0F3AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7B137E716A2B2E600A0F3AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C7B137EB16A2B2E600A0F3AD /* IndianMps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndianMps-Info.plist"; sourceTree = "<group>"; };
+		C7B137EB16A2B2E600A0F3AD /* Indianmp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indianmp-Info.plist"; sourceTree = "<group>"; };
 		C7B137ED16A2B2E600A0F3AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7B137EF16A2B2E600A0F3AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7B137F116A2B2E600A0F3AD /* IndianMps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IndianMps-Prefix.pch"; sourceTree = "<group>"; };
+		C7B137F116A2B2E600A0F3AD /* Indianmp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indianmp-Prefix.pch"; sourceTree = "<group>"; };
 		C7B137F216A2B2E600A0F3AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7B137F316A2B2E600A0F3AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7B137FC16A2B2E600A0F3AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		C7B1381416A2B2E700A0F3AD /* IndianMpsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianMpsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B1381416A2B2E700A0F3AD /* IndianmpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianmpTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B1381516A2B2E700A0F3AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C7B1381D16A2B2E700A0F3AD /* IndianMpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndianMpsTests-Info.plist"; sourceTree = "<group>"; };
+		C7B1381D16A2B2E700A0F3AD /* IndianmpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndianmpTests-Info.plist"; sourceTree = "<group>"; };
 		C7B1381F16A2B2E700A0F3AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7B1382116A2B2E700A0F3AD /* IndianNetaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndianNetaTests.h; sourceTree = "<group>"; };
 		C7B1382216A2B2E700A0F3AD /* IndianNetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndianNetaTests.m; sourceTree = "<group>"; };
-		C7B1382D16A2B71800A0F3AD /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
-		C7B1382E16A2B71800A0F3AD /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		C7B1383116A2BA5C00A0F3AD /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		C7B1383316A34BC800A0F3AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C7B1383416A34BC800A0F3AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -432,6 +434,8 @@
 		C7B1393316A73C3800A0F3AD /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		C7B1393416A73C3900A0F3AD /* RKLMatchEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLMatchEnumerator.h; sourceTree = "<group>"; };
 		C7B1393516A73C3A00A0F3AD /* RKLMatchEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLMatchEnumerator.m; sourceTree = "<group>"; };
+		C7B891D01727534200B5EB0D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C7B891D11727534200B5EB0D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		C7E71464170120A50034B3C6 /* StatesMpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesMpDataSource.h; sourceTree = "<group>"; };
 		C7E71465170120A50034B3C6 /* StatesMpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesMpDataSource.m; sourceTree = "<group>"; };
 		C7E714671701215E0034B3C6 /* UserParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserParameter.h; sourceTree = "<group>"; };
@@ -673,8 +677,8 @@
 		C7B137E016A2B2E600A0F3AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7B137DF16A2B2E600A0F3AD /* IndianMps.app */,
-				C7B1381416A2B2E700A0F3AD /* IndianMpsTests.octest */,
+				C7B137DF16A2B2E600A0F3AD /* Indianmp.app */,
+				C7B1381416A2B2E700A0F3AD /* IndianmpTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -735,10 +739,10 @@
 				C7F2872117222C4900021509 /* GoogleAdMobAdsSdkiOS-6.4.1 */,
 				C7B1391116A571CD00A0F3AD /* Environment.plist */,
 				C7B1391216A571CD00A0F3AD /* Services.plist */,
-				C7B137EB16A2B2E600A0F3AD /* IndianMps-Info.plist */,
+				C7B137EB16A2B2E600A0F3AD /* Indianmp-Info.plist */,
 				C7B137EC16A2B2E600A0F3AD /* InfoPlist.strings */,
 				C7B137EF16A2B2E600A0F3AD /* main.m */,
-				C7B137F116A2B2E600A0F3AD /* IndianMps-Prefix.pch */,
+				C7B137F116A2B2E600A0F3AD /* Indianmp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -756,7 +760,7 @@
 		C7B1381C16A2B2E700A0F3AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7B1381D16A2B2E700A0F3AD /* IndianMpsTests-Info.plist */,
+				C7B1381D16A2B2E700A0F3AD /* IndianmpTests-Info.plist */,
 				C7B1381E16A2B2E700A0F3AD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -765,6 +769,10 @@
 		C7B1382C16A2B6D400A0F3AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C75EDD5C17275C5E003DEF4D /* appicon.png */,
+				C75EDD5D17275C5E003DEF4D /* appicon@2x.png */,
+				C7B891D01727534200B5EB0D /* Icon.png */,
+				C7B891D11727534200B5EB0D /* Icon@2x.png */,
 				C7A74A2F1709309E00E1467A /* 2player.png */,
 				C7A74A301709309E00E1467A /* lock.png */,
 				C70C32D21707B42500DB1BCD /* 1player.png */,
@@ -773,8 +781,6 @@
 				C7B1383316A34BC800A0F3AD /* Default@2x.png */,
 				C7B1383416A34BC800A0F3AD /* Default.png */,
 				C7B1383516A34BC800A0F3AD /* Default-568h@2x.png */,
-				C7B1382D16A2B71800A0F3AD /* appicon@2x.png */,
-				C7B1382E16A2B71800A0F3AD /* appicon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1297,9 +1303,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7B137DE16A2B2E600A0F3AD /* IndianMps */ = {
+		C7B137DE16A2B2E600A0F3AD /* Indianmp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7B1382616A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianMps" */;
+			buildConfigurationList = C7B1382616A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "Indianmp" */;
 			buildPhases = (
 				C7B137DB16A2B2E600A0F3AD /* Sources */,
 				C7B137DC16A2B2E600A0F3AD /* Frameworks */,
@@ -1309,14 +1315,14 @@
 			);
 			dependencies = (
 			);
-			name = IndianMps;
+			name = Indianmp;
 			productName = IndianNeta;
-			productReference = C7B137DF16A2B2E600A0F3AD /* IndianMps.app */;
+			productReference = C7B137DF16A2B2E600A0F3AD /* Indianmp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7B1381316A2B2E700A0F3AD /* IndianMpsTests */ = {
+		C7B1381316A2B2E700A0F3AD /* IndianmpTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7B1382916A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianMpsTests" */;
+			buildConfigurationList = C7B1382916A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianmpTests" */;
 			buildPhases = (
 				C7B1380F16A2B2E700A0F3AD /* Sources */,
 				C7B1381016A2B2E700A0F3AD /* Frameworks */,
@@ -1328,9 +1334,9 @@
 			dependencies = (
 				C7B1381A16A2B2E700A0F3AD /* PBXTargetDependency */,
 			);
-			name = IndianMpsTests;
+			name = IndianmpTests;
 			productName = IndianNetaTests;
-			productReference = C7B1381416A2B2E700A0F3AD /* IndianMpsTests.octest */;
+			productReference = C7B1381416A2B2E700A0F3AD /* IndianmpTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1342,7 +1348,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = StringConnect;
 			};
-			buildConfigurationList = C7B137D916A2B2E600A0F3AD /* Build configuration list for PBXProject "IndianMps" */;
+			buildConfigurationList = C7B137D916A2B2E600A0F3AD /* Build configuration list for PBXProject "Indianmp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1360,8 +1366,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				C7B137DE16A2B2E600A0F3AD /* IndianMps */,
-				C7B1381316A2B2E700A0F3AD /* IndianMpsTests */,
+				C7B137DE16A2B2E600A0F3AD /* Indianmp */,
+				C7B1381316A2B2E700A0F3AD /* IndianmpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1383,8 +1389,6 @@
 			files = (
 				C7B137EE16A2B2E600A0F3AD /* InfoPlist.strings in Resources */,
 				C7B137FD16A2B2E600A0F3AD /* MainStoryboard_iPhone.storyboard in Resources */,
-				C7B1382F16A2B71800A0F3AD /* appicon@2x.png in Resources */,
-				C7B1383016A2B71800A0F3AD /* appicon.png in Resources */,
 				C7B1383216A2BA5C00A0F3AD /* AppDelegate.rb in Resources */,
 				C7B1383616A34BC800A0F3AD /* Default@2x.png in Resources */,
 				C7B1383716A34BC800A0F3AD /* Default.png in Resources */,
@@ -1442,6 +1446,10 @@
 				C7F287B317222C4900021509 /* RootViewController.xib in Resources */,
 				C7F287B617222C4900021509 /* Readme.txt in Resources */,
 				C7F287B817222C4A00021509 /* README.txt in Resources */,
+				C7B891D21727534200B5EB0D /* Icon.png in Resources */,
+				C7B891D31727534200B5EB0D /* Icon@2x.png in Resources */,
+				C75EDD5E17275C5E003DEF4D /* appicon.png in Resources */,
+				C75EDD5F17275C5E003DEF4D /* appicon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1581,7 +1589,7 @@
 /* Begin PBXTargetDependency section */
 		C7B1381A16A2B2E700A0F3AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7B137DE16A2B2E600A0F3AD /* IndianMps */;
+			target = C7B137DE16A2B2E600A0F3AD /* Indianmp */;
 			targetProxy = C7B1381916A2B2E700A0F3AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1623,7 +1631,6 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1636,10 +1643,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1652,16 +1659,17 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1671,9 +1679,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IndianNeta/IndianMps-Prefix.pch";
+				GCC_PREFIX_HEADER = "IndianNeta/Indianmp-Prefix.pch";
 				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
-				INFOPLIST_FILE = "IndianNeta/IndianMps-Info.plist";
+				INFOPLIST_FILE = "IndianNeta/Indianmp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/IndianNeta/Classes/YAJL\"",
@@ -1681,7 +1690,8 @@
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1\"",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_NAME = IndianMps;
+				PRODUCT_NAME = Indianmp;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1691,9 +1701,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IndianNeta/IndianMps-Prefix.pch";
+				GCC_PREFIX_HEADER = "IndianNeta/Indianmp-Prefix.pch";
 				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
-				INFOPLIST_FILE = "IndianNeta/IndianMps-Info.plist";
+				INFOPLIST_FILE = "IndianNeta/Indianmp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/IndianNeta/Classes/YAJL\"",
@@ -1701,7 +1712,8 @@
 					"\"$(SRCROOT)/IndianNeta/GoogleAdMobAdsSdkiOS-6.4.1\"",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_NAME = IndianMps;
+				PRODUCT_NAME = Indianmp;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1716,8 +1728,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IndianNeta/IndianNeta-Prefix.pch";
-				INFOPLIST_FILE = "IndianNetaTests/IndianMpsTests-Info.plist";
-				PRODUCT_NAME = IndianMpsTests;
+				INFOPLIST_FILE = "IndianNetaTests/IndianmpTests-Info.plist";
+				PRODUCT_NAME = IndianmpTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1733,8 +1745,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IndianNeta/IndianNeta-Prefix.pch";
-				INFOPLIST_FILE = "IndianNetaTests/IndianMpsTests-Info.plist";
-				PRODUCT_NAME = IndianMpsTests;
+				INFOPLIST_FILE = "IndianNetaTests/IndianmpTests-Info.plist";
+				PRODUCT_NAME = IndianmpTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1743,7 +1755,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7B137D916A2B2E600A0F3AD /* Build configuration list for PBXProject "IndianMps" */ = {
+		C7B137D916A2B2E600A0F3AD /* Build configuration list for PBXProject "Indianmp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7B1382416A2B2E700A0F3AD /* Debug */,
@@ -1752,7 +1764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7B1382616A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianMps" */ = {
+		C7B1382616A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "Indianmp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7B1382716A2B2E700A0F3AD /* Debug */,
@@ -1761,7 +1773,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7B1382916A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianMpsTests" */ = {
+		C7B1382916A2B2E700A0F3AD /* Build configuration list for PBXNativeTarget "IndianmpTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7B1382A16A2B2E700A0F3AD /* Debug */,

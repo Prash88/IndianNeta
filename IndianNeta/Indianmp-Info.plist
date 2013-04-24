@@ -14,23 +14,15 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>Icon.png</string>
+				<string>Icon@2x.png</string>
 				<string>appicon.png</string>
+				<string>appicon@2x.png</string>
 			</array>
-		</dict>
-		<key>UINewsstandIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>appicon.png</string>
-			</array>
-			<key>UINewsstandBindingEdge</key>
-			<string>UINewsstandBindingEdgeLeft</string>
-			<key>UINewsstandBindingType</key>
-			<string>UINewsstandBindingTypeMagazine</string>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.StringConnect.IndianMps</string>
+	<string>com.StringConnect.Indianmps</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -48,7 +40,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
-	<string>MainStoryboard_iPad</string>
+	<string>MainStoryboard_iPhone</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

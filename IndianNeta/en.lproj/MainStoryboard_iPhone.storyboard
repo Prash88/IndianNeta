@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ERo-5w-IdN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ERo-5w-IdN">
     <dependencies>
+        <deployment version="1280" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
@@ -12,70 +14,51 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Party               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4L7-dj-LjF">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="121" id="WpY-F8-9wh"/>
-                                    <constraint firstAttribute="height" constant="21" id="rZW-3t-G96"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Party               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4L7-dj-LjF">
+                                <rect key="frame" x="10" y="75" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Constituency -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2X3-mt-jKF">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Lf3-MQ-nd5"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Constituency -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2X3-mt-jKF">
+                                <rect key="frame" x="10" y="110" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address          -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXB-yQ-z2f">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="VD6-dd-KiH"/>
-                                    <constraint firstAttribute="width" constant="121" id="fkW-l7-cef"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address          -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SXB-yQ-z2f">
+                                <rect key="frame" x="9" y="191" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="5us-2n-Ef4">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="RZ5-4z-e6t"/>
-                                    <constraint firstAttribute="height" constant="60" id="vuu-3m-3nw"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5us-2n-Ef4">
+                                <rect key="frame" x="133" y="5" width="162" height="60"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-K9-fR5">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="sML-ta-NZm"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="irJ-K9-fR5">
+                                <rect key="frame" x="133" y="70" width="162" height="30"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="dj9-L0-3Z4">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Rlf-vr-xWg"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dj9-L0-3Z4">
+                                <rect key="frame" x="133" y="105" width="162" height="30"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="IZP-KI-n7y">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="123" id="W3c-HI-bho"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IZP-KI-n7y">
+                                <rect key="frame" x="133" y="140" width="162" height="123"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q8-mu-bHB" customClass="JAImageButton">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Hrr-90-H6S"/>
-                                    <constraint firstAttribute="width" constant="70" id="JtE-rn-0XR"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9q8-mu-bHB" customClass="JAImageButton">
+                                <rect key="frame" x="10" y="4" width="70" height="70"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,52 +68,20 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB4-nV-7Fx">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Yx1-Xu-OMM"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uB4-nV-7Fx">
+                                <rect key="frame" x="10" y="284" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="Rct-ok-EE9">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="ttr-38-48v"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rct-ok-EE9">
+                                <rect key="frame" x="133" y="269" width="162" height="50"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="5us-2n-Ef4" firstAttribute="leading" secondItem="7gY-Zx-TVH" secondAttribute="leading" constant="133" id="30X-QZ-pja"/>
-                            <constraint firstItem="SXB-yQ-z2f" firstAttribute="centerY" secondItem="IZP-KI-n7y" secondAttribute="centerY" type="default" id="3XP-dj-bTf"/>
-                            <constraint firstItem="IZP-KI-n7y" firstAttribute="top" secondItem="7gY-Zx-TVH" secondAttribute="top" constant="140" id="4i7-iy-bjo"/>
-                            <constraint firstAttribute="bottom" secondItem="Rct-ok-EE9" secondAttribute="bottom" constant="48" id="5mO-g3-Am6"/>
-                            <constraint firstItem="dj9-L0-3Z4" firstAttribute="leading" secondItem="IZP-KI-n7y" secondAttribute="leading" type="default" id="7XO-5G-9xs"/>
-                            <constraint firstItem="Rct-ok-EE9" firstAttribute="leading" secondItem="IZP-KI-n7y" secondAttribute="leading" type="default" id="Dm7-t9-aef"/>
-                            <constraint firstItem="9q8-mu-bHB" firstAttribute="leading" secondItem="7gY-Zx-TVH" secondAttribute="leading" constant="10" id="E7T-Uq-zZU"/>
-                            <constraint firstItem="9q8-mu-bHB" firstAttribute="top" secondItem="7gY-Zx-TVH" secondAttribute="top" constant="4" id="Eqd-ng-T04"/>
-                            <constraint firstItem="4L7-dj-LjF" firstAttribute="leading" secondItem="9q8-mu-bHB" secondAttribute="leading" type="default" id="Ip5-tW-88r"/>
-                            <constraint firstItem="2X3-mt-jKF" firstAttribute="leading" secondItem="4L7-dj-LjF" secondAttribute="leading" type="default" id="KJV-qw-SWa"/>
-                            <constraint firstItem="dj9-L0-3Z4" firstAttribute="top" secondItem="7gY-Zx-TVH" secondAttribute="top" constant="105" id="LP5-Wu-t2S"/>
-                            <constraint firstItem="2X3-mt-jKF" firstAttribute="leading" secondItem="uB4-nV-7Fx" secondAttribute="leading" type="default" id="Lvj-h2-cHM"/>
-                            <constraint firstItem="uB4-nV-7Fx" firstAttribute="trailing" secondItem="2X3-mt-jKF" secondAttribute="trailing" type="default" id="afc-sA-g2c"/>
-                            <constraint firstItem="dj9-L0-3Z4" firstAttribute="trailing" secondItem="irJ-K9-fR5" secondAttribute="trailing" type="default" id="b01-vy-bGn"/>
-                            <constraint firstItem="irJ-K9-fR5" firstAttribute="trailing" secondItem="5us-2n-Ef4" secondAttribute="trailing" type="default" id="boj-7O-zUh"/>
-                            <constraint firstItem="dj9-L0-3Z4" firstAttribute="leading" secondItem="irJ-K9-fR5" secondAttribute="leading" type="default" id="c2O-0S-pfD"/>
-                            <constraint firstItem="Rct-ok-EE9" firstAttribute="trailing" secondItem="IZP-KI-n7y" secondAttribute="trailing" type="default" id="cnv-AB-F1a"/>
-                            <constraint firstItem="uB4-nV-7Fx" firstAttribute="centerY" secondItem="Rct-ok-EE9" secondAttribute="centerY" type="default" id="f9l-Ui-GR3"/>
-                            <constraint firstItem="2X3-mt-jKF" firstAttribute="centerY" secondItem="dj9-L0-3Z4" secondAttribute="centerY" type="default" id="i09-ZT-xEE"/>
-                            <constraint firstItem="2X3-mt-jKF" firstAttribute="trailing" secondItem="4L7-dj-LjF" secondAttribute="trailing" type="default" id="i2v-lc-RT2"/>
-                            <constraint firstItem="irJ-K9-fR5" firstAttribute="leading" secondItem="5us-2n-Ef4" secondAttribute="leading" type="default" id="ldk-Q8-PL4"/>
-                            <constraint firstItem="dj9-L0-3Z4" firstAttribute="trailing" secondItem="IZP-KI-n7y" secondAttribute="trailing" type="default" id="lwq-TN-Lau"/>
-                            <constraint firstItem="4L7-dj-LjF" firstAttribute="centerY" secondItem="irJ-K9-fR5" secondAttribute="centerY" type="default" id="n4t-JM-e4Q"/>
-                            <constraint firstItem="irJ-K9-fR5" firstAttribute="top" secondItem="7gY-Zx-TVH" secondAttribute="top" constant="70" id="r8j-CA-Bqa"/>
-                            <constraint firstItem="5us-2n-Ef4" firstAttribute="top" secondItem="7gY-Zx-TVH" secondAttribute="top" constant="5" id="xA1-Gh-hQD"/>
-                            <constraint firstItem="SXB-yQ-z2f" firstAttribute="leading" secondItem="7gY-Zx-TVH" secondAttribute="leading" constant="9" id="yS0-rX-f8D"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="lr4-jC-I4W"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -171,11 +122,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="X49-jw-2Hv">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="X49-jw-2Hv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="kf5-9s-C5u"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="QFb-lV-AHp">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -197,11 +147,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="X49-jw-2Hv" firstAttribute="trailing" secondItem="c8J-sA-dvp" secondAttribute="trailing" type="default" id="Nfz-iV-dJT"/>
-                            <constraint firstItem="X49-jw-2Hv" firstAttribute="leading" secondItem="c8J-sA-dvp" secondAttribute="leading" type="default" id="fSD-Vc-Nfj"/>
-                            <constraint firstItem="X49-jw-2Hv" firstAttribute="top" secondItem="c8J-sA-dvp" secondAttribute="top" type="default" id="nGB-JL-WRF"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Parties" id="lTa-qU-Jkn"/>
                     <connections>
@@ -220,11 +165,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="KNC-qR-XnN">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KNC-qR-XnN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="vai-qx-dYx"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="YNm-bi-A1k">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -246,11 +190,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="KNC-qR-XnN" firstAttribute="trailing" secondItem="y1Z-rk-YAX" secondAttribute="trailing" type="default" id="0oi-hF-B1i"/>
-                            <constraint firstItem="KNC-qR-XnN" firstAttribute="leading" secondItem="y1Z-rk-YAX" secondAttribute="leading" type="default" id="3fc-L4-9z1"/>
-                            <constraint firstItem="KNC-qR-XnN" firstAttribute="top" secondItem="y1Z-rk-YAX" secondAttribute="top" type="default" id="ThI-M1-sNE"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Mps" id="TEb-g7-aZz"/>
                     <connections>
@@ -285,11 +224,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Jm3-KW-lHd">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Jm3-KW-lHd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="8Zb-0c-gB2"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="9Lb-iq-tz5">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -311,11 +249,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Jm3-KW-lHd" firstAttribute="leading" secondItem="1KZ-tR-e9W" secondAttribute="leading" type="default" id="J8p-29-J24"/>
-                            <constraint firstItem="Jm3-KW-lHd" firstAttribute="trailing" secondItem="1KZ-tR-e9W" secondAttribute="trailing" type="default" id="eX4-qZ-8IX"/>
-                            <constraint firstItem="Jm3-KW-lHd" firstAttribute="top" secondItem="1KZ-tR-e9W" secondAttribute="top" type="default" id="wxP-iL-Oi4"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Mps" id="wG2-Jb-xif"/>
                     <connections>
@@ -350,11 +283,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7yc-fL-uPu">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7yc-fL-uPu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="9Ke-E9-heK"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="bcI-x6-nXK">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -376,11 +308,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="7yc-fL-uPu" firstAttribute="top" secondItem="6Ts-n8-9Lh" secondAttribute="top" type="default" id="ZiT-kn-UAr"/>
-                            <constraint firstItem="7yc-fL-uPu" firstAttribute="leading" secondItem="6Ts-n8-9Lh" secondAttribute="leading" type="default" id="q4z-UQ-wzu"/>
-                            <constraint firstItem="7yc-fL-uPu" firstAttribute="trailing" secondItem="6Ts-n8-9Lh" secondAttribute="trailing" type="default" id="tu0-8g-eGu"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Constituencies" id="HkS-pO-G20"/>
                     <connections>
@@ -399,70 +326,51 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Party              -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CM-3a-dYy">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="121" id="8Ke-xW-uYB"/>
-                                    <constraint firstAttribute="height" constant="21" id="wId-yE-WaT"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Party              -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4CM-3a-dYy">
+                                <rect key="frame" x="10" y="74" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Constituency -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syL-Nm-7xg">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="neD-YJ-pQh"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Constituency -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="syL-Nm-7xg">
+                                <rect key="frame" x="10" y="110" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address          -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ub-or-HD5">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="jja-Lq-aKf"/>
-                                    <constraint firstAttribute="width" constant="121" id="t7m-Ye-Xml"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address          -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4ub-or-HD5">
+                                <rect key="frame" x="9" y="191" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="qMc-Bt-oG4">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="I94-Tb-D9H"/>
-                                    <constraint firstAttribute="width" constant="162" id="l5D-xh-PKe"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qMc-Bt-oG4">
+                                <rect key="frame" x="133" y="5" width="162" height="60"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="Zog-GJ-TmS">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="9Fi-hn-Hru"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zog-GJ-TmS">
+                                <rect key="frame" x="133" y="70" width="162" height="30"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="gd9-7u-Owy">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="3HD-LO-jFF"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gd9-7u-Owy">
+                                <rect key="frame" x="133" y="105" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="St0-Y0-2Mn">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="123" id="kND-Z9-0yY"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="St0-Y0-2Mn">
+                                <rect key="frame" x="133" y="140" width="162" height="123"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb0-kl-hAi" customClass="JAImageButton">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="0g8-Ho-oip"/>
-                                    <constraint firstAttribute="height" constant="70" id="KyY-nR-IVJ"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wb0-kl-hAi" customClass="JAImageButton">
+                                <rect key="frame" x="10" y="4" width="70" height="70"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -472,52 +380,20 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gam-v3-C8E">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="YBP-d9-Jej"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email               -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gam-v3-C8E">
+                                <rect key="frame" x="10" y="284" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="162" translatesAutoresizingMaskIntoConstraints="NO" id="Z8G-fa-ije">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="PPH-rK-CVM"/>
-                                </constraints>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z8G-fa-ije">
+                                <rect key="frame" x="133" y="269" width="162" height="50"/>
                                 <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Z8G-fa-ije" firstAttribute="leading" secondItem="St0-Y0-2Mn" secondAttribute="leading" type="default" id="09Y-1K-GNH"/>
-                            <constraint firstItem="Z8G-fa-ije" firstAttribute="centerY" secondItem="Gam-v3-C8E" secondAttribute="centerY" type="default" id="0S1-yJ-oFf"/>
-                            <constraint firstItem="St0-Y0-2Mn" firstAttribute="centerY" secondItem="4ub-or-HD5" secondAttribute="centerY" type="default" id="2eV-SO-qJ5"/>
-                            <constraint firstItem="gd9-7u-Owy" firstAttribute="leading" secondItem="Zog-GJ-TmS" secondAttribute="leading" type="default" id="5qB-0m-Exu"/>
-                            <constraint firstItem="syL-Nm-7xg" firstAttribute="leading" secondItem="Gam-v3-C8E" secondAttribute="leading" type="default" id="7NV-Ic-ivc"/>
-                            <constraint firstItem="Zog-GJ-TmS" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="70" id="CYE-D4-fIN"/>
-                            <constraint firstItem="qMc-Bt-oG4" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="5" id="ERn-41-AJm"/>
-                            <constraint firstItem="4ub-or-HD5" firstAttribute="leading" secondItem="cfQ-i1-mZN" secondAttribute="leading" constant="9" id="KuG-ur-r2c"/>
-                            <constraint firstItem="syL-Nm-7xg" firstAttribute="trailing" secondItem="4CM-3a-dYy" secondAttribute="trailing" type="default" id="LDv-KC-i0H"/>
-                            <constraint firstItem="4CM-3a-dYy" firstAttribute="leading" secondItem="Wb0-kl-hAi" secondAttribute="leading" type="default" id="ON5-lc-L4Y"/>
-                            <constraint firstItem="Gam-v3-C8E" firstAttribute="trailing" secondItem="syL-Nm-7xg" secondAttribute="trailing" type="default" id="P2C-q7-zGz"/>
-                            <constraint firstItem="gd9-7u-Owy" firstAttribute="leading" secondItem="St0-Y0-2Mn" secondAttribute="leading" type="default" id="TwB-12-Hr6"/>
-                            <constraint firstItem="Zog-GJ-TmS" firstAttribute="trailing" secondItem="qMc-Bt-oG4" secondAttribute="trailing" type="default" id="Xzx-A3-u4h"/>
-                            <constraint firstAttribute="bottom" secondItem="Z8G-fa-ije" secondAttribute="bottom" constant="48" id="b6Q-tp-ACu"/>
-                            <constraint firstItem="St0-Y0-2Mn" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="140" id="feu-Ge-qWG"/>
-                            <constraint firstItem="Wb0-kl-hAi" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="4" id="ghT-KI-Ese"/>
-                            <constraint firstItem="Z8G-fa-ije" firstAttribute="trailing" secondItem="St0-Y0-2Mn" secondAttribute="trailing" type="default" id="hfe-2b-f57"/>
-                            <constraint firstItem="qMc-Bt-oG4" firstAttribute="leading" secondItem="Zog-GJ-TmS" secondAttribute="leading" type="default" id="jdb-jr-SYz"/>
-                            <constraint firstItem="Wb0-kl-hAi" firstAttribute="leading" secondItem="cfQ-i1-mZN" secondAttribute="leading" constant="10" id="kUb-5t-iC3"/>
-                            <constraint firstItem="St0-Y0-2Mn" firstAttribute="trailing" secondItem="gd9-7u-Owy" secondAttribute="trailing" type="default" id="lGG-cU-Fug"/>
-                            <constraint firstItem="syL-Nm-7xg" firstAttribute="centerY" secondItem="gd9-7u-Owy" secondAttribute="centerY" type="default" id="ome-Po-L3z"/>
-                            <constraint firstItem="gd9-7u-Owy" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="105" id="rft-bj-y7W"/>
-                            <constraint firstItem="4CM-3a-dYy" firstAttribute="top" secondItem="cfQ-i1-mZN" secondAttribute="top" constant="74" id="wFJ-lJ-m3g"/>
-                            <constraint firstItem="gd9-7u-Owy" firstAttribute="trailing" secondItem="Zog-GJ-TmS" secondAttribute="trailing" type="default" id="xfH-yg-YEd"/>
-                            <constraint firstItem="4CM-3a-dYy" firstAttribute="leading" secondItem="syL-Nm-7xg" secondAttribute="leading" type="default" id="xfn-h9-c8n"/>
-                            <constraint firstItem="qMc-Bt-oG4" firstAttribute="leading" secondItem="cfQ-i1-mZN" secondAttribute="leading" constant="133" id="yu4-VU-8xf"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="fry-c4-KoX"/>
                     <connections>
@@ -582,11 +458,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WnT-ny-QuJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="WnT-ny-QuJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="aDQ-PX-ix9"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="akJ-S0-O8W">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -608,11 +483,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="WnT-ny-QuJ" firstAttribute="trailing" secondItem="gX1-5R-aDe" secondAttribute="trailing" type="default" id="3ja-4f-tUx"/>
-                            <constraint firstItem="WnT-ny-QuJ" firstAttribute="leading" secondItem="gX1-5R-aDe" secondAttribute="leading" type="default" id="Rnk-mM-1BG"/>
-                            <constraint firstItem="WnT-ny-QuJ" firstAttribute="top" secondItem="gX1-5R-aDe" secondAttribute="top" type="default" id="fI7-Vy-AFx"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="States" id="fAL-8N-6oh"/>
                     <connections>
@@ -631,11 +501,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DbW-ff-fpf">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DbW-ff-fpf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="317" id="jN5-9D-bVL"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" id="ElK-d5-aTg">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -657,11 +526,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="DbW-ff-fpf" firstAttribute="trailing" secondItem="lWl-Er-IfH" secondAttribute="trailing" type="default" id="Xdf-4a-7l2"/>
-                            <constraint firstItem="DbW-ff-fpf" firstAttribute="leading" secondItem="lWl-Er-IfH" secondAttribute="leading" type="default" id="Z1o-GU-OpI"/>
-                            <constraint firstItem="DbW-ff-fpf" firstAttribute="top" secondItem="lWl-Er-IfH" secondAttribute="top" type="default" id="qEZ-mC-sF5"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Constituencies" id="M8u-md-Gy2"/>
                     <connections>
@@ -679,78 +543,12 @@
         <image name="lock.png" width="32" height="32"/>
         <image name="shield.png" width="32" height="32"/>
     </resources>
-    <classes>
-        <class className="AnotherMpProfileViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AnotherMpProfileViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="address" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="constituency" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="email" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="image" candidateClass="JAImageButton"/>
-                <relationship kind="outlet" name="name" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="party" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ConstituenciesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConstituenciesViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="JAImageButton" superclassName="UIButton">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/JAImageButton.h"/>
-        </class>
-        <class className="MpProfileViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MpProfileViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="address" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="constituency" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="email" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="image" candidateClass="JAImageButton"/>
-                <relationship kind="outlet" name="name" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="party" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MpsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MpsViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PartiesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PartiesViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="PartyMpViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PartyMpViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="StateMpViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StateMpViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="StatesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StatesViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="TK2-jG-rNU"/>
+        <segue reference="pxm-or-OAi"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,7 +7,7 @@
 //
 
 #import "MpProfileTransformer.h"
-
+#import "MpProfile.h"
 @implementation MpProfileTransformer
 
 @synthesize profile = _profile, text = _text, constituencyName, partyName, address, name;
@@ -84,7 +84,10 @@
 	}
     
     if([elementName isEqualToString:@"email"] && address){
-        [self.profile setEmail:self.text];
+        if([self.text isEqualToString:@""])
+            [self.profile setEmail:@"Not Available"];
+        else
+            [self.profile setEmail:self.text];
 	}
     
     if([elementName isEqualToString:@"photo"]){

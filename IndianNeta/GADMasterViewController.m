@@ -29,7 +29,7 @@
     
     adBanner_ = [[GADBannerView alloc]
                  initWithFrame:CGRectMake(0.0,
-                                          317.0,
+                                          rootViewController.view.bounds.size.height-50.0,
                                           GAD_SIZE_320x50.width,
                                           GAD_SIZE_320x50.height)];
         adBanner_.delegate = self;
